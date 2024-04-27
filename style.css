@@ -1,9 +1,23 @@
-body{
-background-color: aqua !important;
+section{ background-color: rgb(3, 35, 104);
+    color: aliceblue;
+    text-align: center;
+
+}
+
+h2{color: black;
+
+}
+
+p{ color: rgb(255, 0, 0);
 
 
 }
 .omar{
+    border: 2px solid turquoise;
+}
 
-    background-color: blueviolet;
+.musti{
+    background: #fff url(fotoğraflar/Fallout.PNG) no-repeat center;
+    background-size: cover ;
+    
 }
