@@ -1,19 +1,92 @@
-.Sıralama{
-background-color: rgb(251, 255, 7);
-font-size: 20px;
-text-decoration: line-through;
+#renk{
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    
+}
 
+.G{
+    color: aquamarine;
 
 }
 
-.Header{
 
-background-color: aquamarine;
+
+
+
+.head{
 text-align: center;
-font-size: 32px;
+font-size: 64px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-.sıralama2{
-    text-decoration: none;
+#renk{
+
+    background-color: #020011f1;
+}
+
+
+.search-title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+
+}
+
+#search-container{
+    
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+#arama-çubuğu{
+    margin-bottom: 20px;
+    width: 400px ;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+
+}
+
+#buton-çubuğu{ 
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+.arama{
+    display: flex;
+    text-align: center;
+
+}
+
+#buton-çubuğu2{
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+
+#buton-çubuğu:hover{
+    border-color: #ccc;
+    border: 2px solid;
+
+}
+
+#buton-çubuğu2:hover{
+    background-color: #ff1e00f1;
+
+
 }
