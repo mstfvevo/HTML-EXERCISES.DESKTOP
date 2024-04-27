@@ -1,23 +1,19 @@
-section{ background-color: rgb(3, 35, 104);
-    color: aliceblue;
-    text-align: center;
-
-}
-
-h2{color: black;
-
-}
-
-p{ color: rgb(255, 0, 0);
+.Sıralama{
+background-color: rgb(251, 255, 7);
+font-size: 20px;
+text-decoration: line-through;
 
 
 }
-.omar{
-    border: 2px solid turquoise;
+
+.Header{
+
+background-color: aquamarine;
+text-align: center;
+font-size: 32px;
+
 }
 
-.musti{
-    background: #fff url(fotoğraflar/Fallout.PNG) no-repeat center;
-    background-size: cover ;
-    
+.sıralama2{
+    text-decoration: none;
 }
