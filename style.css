@@ -1,92 +1,57 @@
-#renk{
-    align-content: center;
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex; 
     justify-content: center;
-    display: grid;
     
 }
 
-.G{
-    color: aquamarine;
-
-}
-
-
-
-
-
-.head{
-text-align: center;
-font-size: 64px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-#renk{
-
-    background-color: #020011f1;
-}
-
-
-.search-title {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: #333;
-
-}
-
-#search-container{
-    
-    margin: 10px auto;
-    text-align: center;
-    border-radius: 5px;
+.box1 {
+    flex: 1; 
+    border: 1px solid #000;
+    margin: 10px;
     padding: 10px;
+    overflow: hidden;
+}
+
+.box2 {
+    flex: 1; 
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
 
 }
 
-#arama-çubuğu{
-    margin-bottom: 20px;
-    width: 400px ;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
+.box3 {
+    flex: 1; 
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+.resim{
+    margin-top: 200px;
 
 }
 
-#buton-çubuğu{ 
-    padding: 5px 10px;
-    background-color: #007bff;
-    border: 2px solid transparent;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 30px;
-    margin-left: 30px;
+@media (min-width: 1024px) {
+    .box {
+        flex: 1;
+    }
 }
 
-
-.arama{
-    display: flex;
-    text-align: center;
-
-}
-
-#buton-çubuğu2{
-    padding: 5px 10px;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-}   
-
-#buton-çubuğu:hover{
-    border-color: #ccc;
-    border: 2px solid;
-
-}
-
-#buton-çubuğu2:hover{
-    background-color: #ff1e00f1;
-
-
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column; 
+    }
+    .box {
+        flex: none; 
+        width: 100%; 
+    }
 }
